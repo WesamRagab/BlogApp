@@ -35,7 +35,7 @@ module.exports.registerUserCtrl = asyncHAndler(async(req , res)=>{
      await user.save();
 
      //send the response to the user
-     res.status(201).json({message: "Registered Successfully , please Log In" })
+     res.status(201).json({message: "Registered done Successfully , please Log In" })
 
 
 });
